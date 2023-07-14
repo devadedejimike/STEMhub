@@ -1,0 +1,40 @@
+html, body{
+	height: 100%;
+}
+.navbar{
+	color: black;
+
+}
+.navbar .navbar-brand, .navbar .navbar-nav .nav-item .nav-link, .navbar-nav a{
+	color: inherit;
+}
+.navbar-nav .nav-item:last-of-type{
+	background: orange;
+	color: white;
+}
+.hero{
+	background:url(../HTML/image/gym-3.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;  
+	background-size: cover;
+}
+.hero-tagline{
+	background: rgba(255,165,0,.8);
+	padding-left: 5em;
+	color: white;
+}
+.hero-tagline h2{
+	font-size: 3em;
+}
+.hero-tagline p{
+	font-size: 1.5em;
+}
+.col-md-8.mx-auto{
+	padding-left: 0;
+}
+.col-md-8.mx-auto *{
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0; 
+}
